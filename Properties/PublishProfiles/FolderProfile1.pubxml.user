@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>C:\Users\zaryk\Documents\Visual Studio 2017\Projects\WebApplication1\WebApplication1\bin\Debug\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>12/06/2017 22:12:54</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>08/18/2016 15:15:34</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Mvc.dll">
+      <publishTime>01/29/2017 13:03:52</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Mvc.Owin.dll">
+      <publishTime>01/29/2017 13:04:52</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Owin.dll">
+      <publishTime>07/10/2017 20:53:06</publishTime>
+    </File>
+    <File Include="bin/Boilerplate.Web.Mvc5.dll">
+      <publishTime>05/16/2016 10:39:44</publishTime>
+    </File>
+    <File Include="bin/Boilerplate.Web.Mvc5.pdb">
+      <publishTime>05/16/2016 10:39:44</publishTime>
+    </File>
+    <File Include="bin/Boilerplate.Web.Mvc5.Sample.dll">
+      <publishTime>12/06/2017 21:49:50</publishTime>
+    </File>
+    <File Include="bin/Boilerplate.Web.Mvc5.Sample.pdb">
+      <publishTime>12/06/2017 21:49:50</publishTime>
+    </File>
+    <File Include="bin/Elmah.dll">
+      <publishTime>04/12/2012 19:19:36</publishTime>
+    </File>
+    <File Include="bin/Elmah.Mvc.dll">
+      <publishTime>05/01/2015 00:46:24</publishTime>
+    </File>
+    <File Include="bin/Glimpse.AspNet.dll">
+      <publishTime>10/29/2014 12:10:44</publishTime>
+    </File>
+    <File Include="bin/Glimpse.Core.dll">
+      <publishTime>06/25/2014 16:08:12</publishTime>
+    </File>
+    <File Include="bin/Glimpse.Elmah.dll">
+      <publishTime>05/12/2013 13:01:54</publishTime>
+    </File>
+    <File Include="bin/Glimpse.Mvc5.dll">
+      <publishTime>02/04/2014 11:55:28</publishTime>
+    </File>
+    <File Include="bin/Jil.dll">
+      <publishTime>08/23/2017 16:47:42</publishTime>
+    </File>
+    <File Include="bin/Jil.pdb">
+      <publishTime>08/23/2017 16:47:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/01/2016 04:50:17</publishTime>
+    </File>
+    <File Include="bin/NWebsec.Core.dll">
+      <publishTime>12/07/2016 01:10:14</publishTime>
+    </File>
+    <File Include="bin/NWebsec.dll">
+      <publishTime>12/07/2016 01:10:18</publishTime>
+    </File>
+    <File Include="bin/NWebsec.Mvc.dll">
+      <publishTime>12/07/2016 01:10:28</publishTime>
+    </File>
+    <File Include="bin/NWebsec.Owin.dll">
+      <publishTime>12/07/2016 01:41:44</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>04/01/2016 04:55:51</publishTime>
+    </File>
+    <File Include="bin/Sigil.dll">
+      <publishTime>05/23/2016 14:18:30</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.dll">
+      <publishTime>06/04/2012 13:29:58</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>01/28/2015 04:01:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.Views.dll">
+      <publishTime>12/06/2017 22:12:54</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.Views.pdb">
+      <publishTime>12/06/2017 22:12:54</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="bin/WebMarkupMin.AspNet.Common.dll">
+      <publishTime>05/07/2017 20:15:38</publishTime>
+    </File>
+    <File Include="bin/WebMarkupMin.AspNet4.Common.dll">
+      <publishTime>05/07/2017 20:16:22</publishTime>
+    </File>
+    <File Include="bin/WebMarkupMin.AspNet4.Mvc.dll">
+      <publishTime>05/07/2017 20:17:24</publishTime>
+    </File>
+    <File Include="bin/WebMarkupMin.Core.dll">
+      <publishTime>05/07/2017 20:19:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap/alerts.less">
+      <publishTime>12/06/2017 20:29:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap/badges.less">
+      <publishTime>12/06/2017 20:29:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.less">
+      <publishTime>12/06/2017 20:29:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap/breadcrumbs.less">
+      <publishTime>12/06/2017 20:29:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap/button-groups.less">
+      <publishTime>12/06/2017 20:29:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap/buttons.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/carousel.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/close.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/code.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/component-animations.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/dropdowns.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/forms.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/grid.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/input-groups.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/jumbotron.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/labels.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/list-group.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/media.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/alerts.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/background-variant.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/border-radius.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/buttons.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/center-block.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/clearfix.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/forms.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/gradients.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/grid-framework.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/grid.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/hide-text.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/image.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/labels.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/list-group.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/nav-divider.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/nav-vertical-align.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/opacity.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/pagination.less">
+      <publishTime>12/06/2017 20:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/panels.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/progress-bar.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/reset-filter.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/reset-text.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/resize.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/responsive-visibility.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/size.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/tab-focus.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/table-row.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/text-emphasis.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/text-overflow.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/vendor-prefixes.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/modals.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/navbar.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/navs.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/normalize.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/pager.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/pagination.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/panels.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/popovers.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/print.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/progress-bars.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/responsive-embed.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/responsive-utilities.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/scaffolding.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/site.css">
+      <publishTime>12/05/2017 05:49:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/site.css.map">
+      <publishTime>12/05/2017 05:49:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/site.less">
+      <publishTime>12/05/2017 05:49:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/site.min.css">
+      <publishTime>12/05/2017 05:49:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap/tables.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/theme.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/thumbnails.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/tooltip.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/type.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/utilities.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/variables.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/wells.less">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/fontawesome/animated.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/bordered-pulled.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/core.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/fixed-width.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/font-awesome.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/icons.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/larger.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/list.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/mixins.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/path.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/rotated-flipped.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/screen-reader.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/Site.css">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fontawesome/Site.css.map">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fontawesome/Site.less">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fontawesome/Site.min.css">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fontawesome/stacked.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fontawesome/variables.less">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.eot">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.svg">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/FontAwesome.otf">
+      <publishTime>12/06/2017 20:30:08</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome/fontawesome-webfont.eot">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome/fontawesome-webfont.svg">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome/fontawesome-webfont.ttf">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome/fontawesome-webfont.woff">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome/fontawesome-webfont.woff2">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome/FontAwesome.otf">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Content/icons/android-chrome-144x144.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/android-chrome-192x192.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/android-chrome-36x36.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/android-chrome-48x48.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/android-chrome-72x72.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/android-chrome-96x96.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-114x114.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-120x120.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-144x144.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-152x152.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-180x180.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-57x57.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-60x60.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-72x72.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-76x76.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon-precomposed.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-icon.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-1496x2048.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-1536x2008.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-320x460.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-640x1096.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-640x920.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-748x1024.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/apple-touch-startup-image-768x1004.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/atom-icon-48x48.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/atom-logo-96x48.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/favicon-16x16.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/favicon-192x192.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/favicon-32x32.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/favicon-96x96.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/mstile-144x144.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/mstile-150x150.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/mstile-310x150.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/mstile-310x310.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/mstile-70x70.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/icons/open-graph-1200x630.png">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/Site.css.map">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Content/Site.min.css">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Error/Forbidden.html">
+      <publishTime>12/06/2017 21:49:43</publishTime>
+    </File>
+    <File Include="Error/GatewayTimeout.html">
+      <publishTime>12/06/2017 21:49:43</publishTime>
+    </File>
+    <File Include="Error/ServiceUnavailable.html">
+      <publishTime>12/06/2017 21:49:43</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="humans.txt">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/06/2017 20:31:20</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>12/06/2017 22:12:38</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/06/2017 20:29:36</publishTime>
+    </File>
+    <File Include="Scripts/Fallback/scripts.js">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Scripts/Fallback/styles.js">
+      <publishTime>12/05/2017 05:49:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.js">
+      <publishTime>12/06/2017 20:30:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.js">
+      <publishTime>12/06/2017 20:30:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.map">
+      <publishTime>12/06/2017 20:30:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.js">
+      <publishTime>12/06/2017 20:30:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.js">
+      <publishTime>12/06/2017 20:30:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.map">
+      <publishTime>12/06/2017 20:30:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/06/2017 20:30:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/06/2017 20:30:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Scripts/site.js">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>12/06/2017 20:30:34</publishTime>
+    </File>
+    <File Include="Views/Error/BadRequest.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/Error/Forbidden.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/Error/InternalServerError.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/Error/MethodNotAllowed.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/Error/NotFound.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/Error/Unauthorized.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>12/06/2017 21:49:26</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>12/06/2017 21:49:26</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/06/2017 21:49:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>12/06/2017 21:49:26</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/05/2017 05:49:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/06/2017 22:12:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
