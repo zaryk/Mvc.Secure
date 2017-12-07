@@ -57,7 +57,7 @@
         }
         
         /// <summary>
-        /// Configures the view engines. By default, Asp.Net MVC includes the Web Forms (WebFormsViewEngine) and 
+        /// Configures the view engines. By default,  includes the Web Forms (WebFormsViewEngine) and 
         /// Razor (RazorViewEngine) view engines that supports both C# (.cshtml) and VB (.vbhtml). You can remove view 
         /// engines you are not using here for better performance and include a custom Razor view engine that only 
         /// supports C#.

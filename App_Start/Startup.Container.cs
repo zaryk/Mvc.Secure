@@ -65,7 +65,7 @@
         }
 
         /// <summary>
-        /// Sets the ASP.NET MVC dependency resolver.
+        /// Sets the  dependency resolver.
         /// </summary>
         /// <param name="container">The container.</param>
         private static void SetMvcDependencyResolver(IContainer container)

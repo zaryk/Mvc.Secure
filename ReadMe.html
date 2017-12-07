@@ -15,7 +15,7 @@
 
         <header class="jumbotron">
             <h1>Boilerplate</h1>
-            <p class="lead">A professional ASP.NET MVC template for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.</p>
+            <p class="lead">A professional template for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.</p>
             <p><a href="https://github.com/ASP-NET-Core-Boilerplate/Templates" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
         </header>
 
@@ -165,7 +165,7 @@
                     </li>
                     <li class="list-group-item">
                         <input name="OtherSecurity-UnderstandCrossSiteScripting" type="checkbox"> <strong>Understand Cross Site Scripting (XSS)</strong> -
-                        Understand Cross Site Scripting (XSS) security vulnerabilities and how you can protect yourself from them using the <a href="https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet">OWASP XSS Cheat Sheet</a> and <a href="https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet">OWASP DOM Based XSS Cheat Sheet</a>.
+                        Understand Cross Site Scripting (XSS) security vulnerabilities and how you can protect yourself from them using the <a href="https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet">OWASP XSS Cheat Sheet</a> and <a href="https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet">OWASP DOM Based XSS Cheat Sheet</a>.  Consider using System.Web.Security.AntiXss.AntiXssEncoder
                     </li>
                     <li class="list-group-item">
                         <input name="OtherSecurity-UnderstandCrossSiteRequestForgery" type="checkbox"> <strong>Understand Cross Site Request Forgery (CSRF)</strong> -
@@ -315,7 +315,7 @@
                     <li class="list-group-item">
                         <input name="Compatibility-DoIUseDefaultDocumentBrowsing" type="checkbox"> <strong>Do I Use Default Document Browsing?</strong> -
                         Default document browsing has been turned off by default for security reasons e.g. Navigating to /Folder/ which contains the physical file index.html,
-                        will not return /Folder/index.html. This should not be a problem as we are using ASP.NET MVC controllers and actions. If you do want to
+                        will not return /Folder/index.html. This should not be a problem as we are using  controllers and actions. If you do want to
                         use physical files in folders, you may want to turn this feature back on. The security implications of doing this are small.
                         In the Web.config file set &lt;defaultDocument enabled="true"/&gt;.
                     </li>
@@ -676,7 +676,7 @@
     </script>
     <script>
         $(function () {
-            var store = new Persist.Store('ASP NET MVC Boilerplate ReadMe');
+            var store = new Persist.Store('Boilerplate ReadMe');
 
             function turnOn($checkbox) {
                 if ($checkbox.hasClass('alert-close-checkbox')) {
